@@ -1,6 +1,6 @@
 # tobago-and-tripoli
 
-A restaurant mockup page written primarily with Javascript DOM manipulation. Creative inspiration from [Chef Jacque La Merde(https://www.bonappetit.com/entertaining-style/trends-news/article/who-is-jacques-la-merde-instagram).
+A restaurant mockup page written primarily with Javascript DOM manipulation. Creative inspiration from [Chef Jacque La Merde](https://www.bonappetit.com/entertaining-style/trends-news/article/who-is-jacques-la-merde-instagram).
 
 Skills practiced/researched:
 - DOM manipulation
