@@ -26,7 +26,9 @@ let home = () => {
 
   content.appendChild(container);
 
-  footer();
+  if (!document.querySelector('footer')) {
+    footer();
+  }
 }
 
 export default home

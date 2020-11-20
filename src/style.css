@@ -17,14 +17,26 @@ body {
 
 .home {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://www.messynessychic.com/wp-content/uploads/2015/04/food.jpg');
-  background-position: center 20%;
   height:93vh;
+  background-position: center 20%;
 }
 
 .about {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://2cq5lp1tkadn309yxaxryb15-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/Kendall-fine-dining-room-bar.jpg');
-  background-position: center 20%;
   height:35vh;
+  background-position: center 20%;
+}
+
+.menu {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://static.messynessychic.com/wp-content/uploads/2015/04/fancyjunk6.jpg');
+  height: 25vh;
+  background-position: center;
+}
+
+.contact {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://i.redd.it/ib04ch2fmz231.png');
+  height: 30vh;
+  background-position: center 65%;
 }
 
 header {
@@ -96,4 +108,13 @@ footer {
   bottom:0;
   left:0;
   right:0;
+}
+
+li {
+  padding-bottom: 2em;
+}
+
+.container p {
+  font-size: 1.2em;
+  padding-bottom: 2em;
 }
