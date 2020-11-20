@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Belleza';
+  src: url('https://fonts.gstatic.com/s/belleza/v9/0nkoC9_pNeMfhX4BhcH4ag.woff2')
+}
+
+body {
+  font-family: 'Belleza';
+  background-color:black;
+}
+
+#content {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://www.messynessychic.com/wp-content/uploads/2015/04/food.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center 20%;
+  color:white;
+  height:93vh;
+}
+
+header {
+  text-align:center;
+  font-size: 3em;
+}
+
+h1 {
+  padding:1em;
+}
+
+header p {
+  font-size:2rem;
+}
+
+nav {
+  height:40px;
+  max-width: 80%;
+  margin: 0 auto;
+  display:flex;
+  align-items:center;
+  border-bottom: 1px solid rgba(110,110,110,0.5);
+}
+
+nav button {
+  height: 100%;
+  padding: 0 1em;
+  display:flex;
+  align-items:center;
+  font-size:1.3em;
+  background:none;
+  border:none;
+  color:white;
+}
+
+nav button:hover {
+  color:grey;
+  transition: all 0.2s ease;
+  cursor:pointer;
+}
+
+.active {
+  border-radius:5px;
+  background-color:rgba(255,255,255,0.2);
+}
+
+footer {
+  height:7vh;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
