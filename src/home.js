@@ -1,30 +1,32 @@
 import nav from './nav';
+import footer from './footer';
 
 let home = () => {
   let content = document.getElementById('content');
+  content.classList.add('home');
 
-  let navbar = nav()
-  content.appendChild(navbar);
+  if (!document.querySelector('nav')) {
+    let navbar = nav()
+    content.appendChild(navbar);
+  }
   let home = document.getElementById('home');
   home.classList.add('active');
 
+  let container = document.createElement('div');
+  container.classList.add('container');
   let header = document.createElement('header');
   let headline = document.createElement('h1');
   headline.innerHTML = 'Tobago & Tripoli';
   header.appendChild(headline);
+  container.appendChild(header);
 
   let tagline = document.createElement('p');
-  tagline.innerHTML = 'Where Bougie Meets Poverty';
+  tagline.innerHTML = 'Where Bougie Meets Broke';
   header.appendChild(tagline);
 
-  content.appendChild(header);
+  content.appendChild(container);
 
-  let footer = document.createElement('footer');
-  let footerText = document.createElement('p');
-  footerText.innerHTML = 'Copyright © Kylan International. All rights reserved. Sike, I have no rights.'
-  footer.appendChild(footerText);
-  let body = document.querySelector('body');
-  body.appendChild(footer);
+  footer();
 }
 
 export default home
