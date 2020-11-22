@@ -6,7 +6,8 @@
 body {
   font-family: 'Belleza';
   background-color:black;
-  height: 100vh;
+  min-height: 100vh;
+  position:relative;
 }
 
 #content {
@@ -61,6 +62,7 @@ header p {
   color:white;
   text-align:center;
   margin:0 auto;
+  padding: 0 1em 7vh 1em;
 }
 
 .container h1 {
@@ -105,9 +107,12 @@ footer {
   align-items:center;
   justify-content:center;
   position:absolute;
+  width:100%;
   bottom:0;
   left:0;
   right:0;
+  text-align:center;
+  padding: 0 1em;
 }
 
 li {
@@ -117,4 +122,33 @@ li {
 .container p {
   font-size: 1.2em;
   padding-bottom: 2em;
+}
+
+@media (max-width:580px) {
+  nav {
+    width: 100%;
+    justify-content:center;
+  }
+
+  nav button {
+    font-size: 1rem;
+  }
+
+  footer {
+    padding-top:7vh;
+  }
+}
+
+@media (max-width:440px) {
+  nav button {
+    font-size: 0.85rem;
+  }
+
+  .container {
+    font-size: 15px;
+  }
+
+  .container p {
+    font-size: 1.3em;
+  }
 }
