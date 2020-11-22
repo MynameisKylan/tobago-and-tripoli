@@ -107,12 +107,13 @@ footer {
   align-items:center;
   justify-content:center;
   position:absolute;
-  width:100%;
+  max-width:100%;
   bottom:0;
   left:0;
   right:0;
   text-align:center;
   padding: 0 1em;
+  box-sizing:border-box;
 }
 
 li {
@@ -132,10 +133,6 @@ li {
 
   nav button {
     font-size: 1rem;
-  }
-
-  footer {
-    padding-top:7vh;
   }
 }
 
